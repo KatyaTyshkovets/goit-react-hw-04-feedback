@@ -45,8 +45,8 @@ export function App ()  {
               <Statistics
                 options={options}
                 values={feedback}
-                total={()=>countTotalFeedback()}
-                positivePercentage={()=> countPositiveFeedbackPercentage()}
+                total={countTotalFeedback}
+                positivePercentage={countPositiveFeedbackPercentage}
               />
             </Sections>
         )}       
